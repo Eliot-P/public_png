@@ -103,7 +103,7 @@ def main (number_of_exec,max_number_of_thread):
     grapher(big_array)
 ```
 
-Et finalement il ne nous reste plus qu'à écrire la fonction [*grapher()*]() qui prend pour argument l'array des temps d'executions et retourne un graphique pas piqué des hannetons. Il s'agit uniquement de fonctions matplotlib et numpy de base, je n'entrerais donc pas dans les détails sur cette fonction
+Et finalement il ne nous reste plus qu'à écrire la fonction [*grapher()*]() qui prend pour argument l'array des temps d'executions et retourne un graphique. Il s'agit uniquement de fonctions matplotlib et numpy de base, je n'entrerais donc pas dans les détails sur cette fonction
 
 ```python
 def grapher(array):
